@@ -19,5 +19,6 @@ int main(void)
 		putchar(u_ch);
 	}
 	putchar ('\n');
+	return (0);
 }
 
