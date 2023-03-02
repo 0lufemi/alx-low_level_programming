@@ -3,7 +3,7 @@
 /**
 * *_strcat - concantenate 2 strings
 * @*dest: string1
-* *src: string2
+* @*src: string2
 * Return: a pointer to resulting spring
 */
 
