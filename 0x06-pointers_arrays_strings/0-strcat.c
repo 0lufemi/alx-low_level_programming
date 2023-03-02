@@ -2,8 +2,8 @@
 
 /**
 * *_strcat - concantenate 2 strings
-* @*dest: string1
-* @*src: string2
+* @dest: pointer to destination string
+* @src: pointer to source string
 * Return: a pointer to resulting spring
 */
 
