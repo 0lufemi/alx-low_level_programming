@@ -9,7 +9,6 @@ void print_times_table(int n)
 {
 	int i, j, mul;
 
-
 	for (i = 0; i <= n; i++)
 	{
 		if (n > 15 || n < 0)
@@ -46,6 +45,6 @@ void print_times_table(int n)
 			_putchar(mul + '0');
 		}
 	}
-        _putchar('\n');
-	}
+	_putchar('\n');
+}
 }
