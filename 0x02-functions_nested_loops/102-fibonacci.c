@@ -4,8 +4,8 @@
  * main - first 100 fibonnacci  numbers
  * Return: 0
  */
- 
- int main(void)
+
+int main(void)
 {
 	int i, n3, n1 = 1, n2 = 2;
 
@@ -14,7 +14,7 @@
 	{
 		n3 = n1 + n2;
 
-		if(i != 50)
+		if (i != 50)
 			printf("%d, ", n3);
 		else
 			printf("%d", n3);
