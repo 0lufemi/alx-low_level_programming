@@ -9,7 +9,7 @@ int main(void)
 {
 	long int n1, n2, n3;
 	int i;
-	
+
 	n1 = 1, n2 = 2;
 
 	printf("%lu, %lu, ", n1, n2);
