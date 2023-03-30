@@ -11,14 +11,15 @@ int main(void)
 	long int a = 1, b = 2, c;
 	int i;
 
-	printf("%lu, %lu", a, b);
+	printf("%lu, %lu, ", a, b);
 	for (i = 3; i <= 98; i++)
 	{
 		c = a + b;
 
 		if (i != 98)
 			printf("%lu, ", c);
-		printf("%lu", c);
+		else
+			printf("%lu", c);
 
 		a = b;
 		b = c;
