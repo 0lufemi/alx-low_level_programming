@@ -27,16 +27,16 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	rd = read(fd, buf, letters);
 	close(fd);
-	
+
 	if (rd == -1)
 	{
 		free(buf);
 		return (0);
 	}
-	
+
 	wr = write(STDOUT_FILENO, buf, rd);
 	free(buf);
-	
+
 	if (rd != wr)
 		return (0);
 
