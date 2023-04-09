@@ -19,7 +19,7 @@ int create_file(const char *filename, char *text_content)
 
 	if (fo == -1)
 		return (-1);
-	
+
 	/* int l = 0; */
 	while (text_content && *(text_content + l))
 		l++;
