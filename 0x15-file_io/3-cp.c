@@ -1,15 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
+ * main - program that copies the content of a file to another file.
+ * @argc: argument count
+ * @argv: argument vector
  */
-
-int fd_from, fd_to;
-char buffer[1024];
-ssize_t bytes_read;
-const char *file_from;
-const char *file_to;
 
 void exit_with_error(int code, const char *message, const char *filename, int fd)
 {
@@ -25,6 +20,12 @@ void exit_with_error(int code, const char *message, const char *filename, int fd
 
 int main(int argc, char **argv)
 {
+	int fd_from, fd_to;
+	char buffer[1024];
+	ssize_t bytes_read;
+	const char *file_from;
+	const char *file_to;
+
 	if (argc != 3)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
